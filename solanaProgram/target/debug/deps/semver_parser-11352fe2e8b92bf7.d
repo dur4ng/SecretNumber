@@ -1,0 +1,11 @@
+\\wsl$\kali-linux\home\dur4ng\Development\blockChain\solana\game\escrow-game\target\debug\deps\semver_parser-11352fe2e8b92bf7.rmeta: C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\lib.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\range_set.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\range.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\lexer.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\parser.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\version.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\generated.rs
+
+\\wsl$\kali-linux\home\dur4ng\Development\blockChain\solana\game\escrow-game\target\debug\deps\semver_parser-11352fe2e8b92bf7.d: C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\lib.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\range_set.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\range.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\lexer.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\parser.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\version.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\generated.rs
+
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\lib.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\range_set.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\range.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\lexer.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\parser.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\version.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.10.2\src\generated.rs:

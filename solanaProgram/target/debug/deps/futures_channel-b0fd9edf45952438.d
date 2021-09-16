@@ -1,0 +1,10 @@
+\\wsl$\kali-linux\home\dur4ng\Development\secretNumber\escrow-game\target\debug\deps\futures_channel-b0fd9edf45952438.rmeta: C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\lib.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\lock.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\mod.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\queue.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\sink_impl.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\oneshot.rs
+
+\\wsl$\kali-linux\home\dur4ng\Development\secretNumber\escrow-game\target\debug\deps\futures_channel-b0fd9edf45952438.d: C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\lib.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\lock.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\mod.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\queue.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\sink_impl.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\oneshot.rs
+
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\lib.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\lock.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\mod.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\queue.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\mpsc\sink_impl.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.17\src\oneshot.rs:

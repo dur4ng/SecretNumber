@@ -1,0 +1,11 @@
+\\wsl$\kali-linux\home\dur4ng\Development\secretNumber\escrow-game\target\debug\deps\futures_task-7743255ffd8887e5.rmeta: C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\lib.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\spawn.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\arc_wake.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\waker.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\waker_ref.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\future_obj.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\noop_waker.rs
+
+\\wsl$\kali-linux\home\dur4ng\Development\secretNumber\escrow-game\target\debug\deps\futures_task-7743255ffd8887e5.d: C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\lib.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\spawn.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\arc_wake.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\waker.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\waker_ref.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\future_obj.rs C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\noop_waker.rs
+
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\lib.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\spawn.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\arc_wake.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\waker.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\waker_ref.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\future_obj.rs:
+C:\Users\duran\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-task-0.3.17\src\noop_waker.rs:

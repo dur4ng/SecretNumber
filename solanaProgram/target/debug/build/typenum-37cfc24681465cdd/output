@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=\\wsl$\kali-linux\home\dur4ng\Development\blockChain\solana\game\escrow-game\target\debug\build\typenum-37cfc24681465cdd\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=\\wsl$\kali-linux\home\dur4ng\Development\blockChain\solana\game\escrow-game\target\debug\build\typenum-37cfc24681465cdd\out\op.rs

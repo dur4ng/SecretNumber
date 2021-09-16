@@ -1,0 +1,26 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "etc/hidapi/hidapi" "-W4" "-Fo\\\\wsl$\\kali-linux\\home\\dur4ng\\Development\\blockChain\\solana\\game\\escrow-game\\target\\debug\\build\\hidapi-7031be09dfb1660d\\out\\etc/hidapi/windows/hid.o" "-c" "etc/hidapi/windows/hid.c"
+hid.c
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:\\\\wsl$\\kali-linux\\home\\dur4ng\\Development\\blockChain\\solana\\game\\escrow-game\\target\\debug\\build\\hidapi-7031be09dfb1660d\\out\\libhidapi.a" "-nologo" "\\\\wsl$\\kali-linux\\home\\dur4ng\\Development\\blockChain\\solana\\game\\escrow-game\\target\\debug\\build\\hidapi-7031be09dfb1660d\\out\\etc/hidapi/windows/hid.o"
+exit code: 0
+cargo:rustc-link-lib=static=hidapi
+cargo:rustc-link-search=native=\\wsl$\kali-linux\home\dur4ng\Development\blockChain\solana\game\escrow-game\target\debug\build\hidapi-7031be09dfb1660d\out
+cargo:rustc-link-lib=setupapi
