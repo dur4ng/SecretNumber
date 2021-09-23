@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T16:59:49.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="9gV6BLEdmiA8na2VJ8e3" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T18:32:35.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="6V0oGAI9vEjMUY8Vzekz" version="15.2.9" type="github">
   <diagram id="HRANH3u2XZls_gorqm9L" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="yjDHvjiuVbuRtsxtX4dv-4" value="UserSign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yjDHvjiuVbuRtsxtX4dv-5" value="Phantom&lt;br&gt;Wallet" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="690" y="80" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yjDHvjiuVbuRtsxtX4dv-7" value="CreateGame" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="370" y="350" width="120" height="60" as="geometry" />
@@ -25,10 +22,10 @@
         <mxCell id="yjDHvjiuVbuRtsxtX4dv-11" value="sendGuessNumber" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="370" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yjDHvjiuVbuRtsxtX4dv-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" source="yjDHvjiuVbuRtsxtX4dv-9" target="yjDHvjiuVbuRtsxtX4dv-5">
+        <mxCell id="yjDHvjiuVbuRtsxtX4dv-14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" source="yjDHvjiuVbuRtsxtX4dv-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="480" as="sourcePoint" />
-            <mxPoint x="440" y="430" as="targetPoint" />
+            <mxPoint x="690" y="107.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yjDHvjiuVbuRtsxtX4dv-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yjDHvjiuVbuRtsxtX4dv-7" target="yjDHvjiuVbuRtsxtX4dv-19">
@@ -93,6 +90,9 @@
         </mxCell>
         <mxCell id="yjDHvjiuVbuRtsxtX4dv-35" value="All this kind of services need UserSign service authorization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="690" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yjDHvjiuVbuRtsxtX4dv-36" value="&lt;span&gt;Phantom&lt;/span&gt;&lt;br&gt;&lt;span&gt;Wallet&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
