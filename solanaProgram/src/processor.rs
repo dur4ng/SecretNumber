@@ -29,11 +29,11 @@ impl Processor {
             }
             EscrowGameInstruction::JoinGameEscrow { amount } => {
                 msg!("Instruction: JoinGameEscrow");
-                Self::process_join_game_escrow(accounts, amount, program_id)
+                Self::process_join_game_escrow()
             }
             EscrowGameInstruction::TryGuessSecretNumber { number } => {
                 msg!("Instruction: TryGuessSecretNumber");
-                Self::process_try_guess_secret_number(accounts, number, program_id)
+                Self::process_try_guess_secret_number()
             }
         }
     }
@@ -42,7 +42,7 @@ impl Processor {
         accounts: &[AccountInfo],
         amount: u64,
         program_id: &Pubkey,
-    ) {
+    ) -> ProgramResult {
         let account_info_iter = &mut accounts.iter();
         let initializer = next_account_info(account_info_iter)?;
 
@@ -68,14 +68,14 @@ impl Processor {
             return Err(ProgramError::AccountAlreadyInitialized);
         }
         if game_info.is_waiting_player() {
-            return Err(EscrowError::NotWaitingPlayers);
+            return Err(ProgramError::from(EscrowError::NotWaitingPlayers));
         }
 
         game_info.is_initialized = true;
         game_info.is_waiting_player = true;
-        game_info.initializer_pubkey = initializer.key;
-        game_info.initializer_temp_token_account_pubkey = temp_token_account.key;
-        game_info.initializer_token_to_receive_account_pubkey = token_to_receive_account.key;
+        game_info.initializer_pubkey = *initializer.key;
+        game_info.initializer_temp_token_account_pubkey = *temp_token_account.key;
+        game_info.initializer_token_to_receive_account_pubkey = *token_to_receive_account.key;
         game_info.expected_amount = amount;
 
         GameScrow::pack(game_info, &mut game_account.data.borrow_mut())?;

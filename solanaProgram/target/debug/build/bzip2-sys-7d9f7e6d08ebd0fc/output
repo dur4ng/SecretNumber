@@ -1,0 +1,58 @@
+cargo:rerun-if-env-changed=BZIP2_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=BZIP2_STATIC
+cargo:rerun-if-env-changed=BZIP2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/blocksort.o" "-c" "bzip2-1.0.8/blocksort.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/huffman.o" "-c" "bzip2-1.0.8/huffman.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/crctable.o" "-c" "bzip2-1.0.8/crctable.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/randtable.o" "-c" "bzip2-1.0.8/randtable.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/compress.o" "-c" "bzip2-1.0.8/compress.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/decompress.o" "-c" "bzip2-1.0.8/decompress.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/bzlib.o" "-c" "bzip2-1.0.8/bzlib.c"
+exit status: 0
+exit status: 0
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/libbz2.a" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/blocksort.o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/huffman.o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/crctable.o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/randtable.o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/compress.o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/decompress.o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/bzip2-1.0.8/bzlib.o"
+exit status: 0
+running: "ar" "s" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib/libbz2.a"
+exit status: 0
+cargo:rustc-link-lib=static=bz2
+cargo:rustc-link-search=native=/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/lib
+cargo:root=/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out
+cargo:include=/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/bzip2-sys-7d9f7e6d08ebd0fc/out/include

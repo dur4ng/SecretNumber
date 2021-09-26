@@ -18,21 +18,22 @@ pub struct GameScrow {
     pub expected_amount: u64,
     pub secret_num: u64,
 }
-
+impl GameScrow {
+    pub(crate) fn is_waiting_player(&self) -> bool {
+        self.is_waiting_player
+    }
+}
 impl Sealed for GameScrow {}
 
 impl IsInitialized for GameScrow {
     fn is_initialized(&self) -> bool {
         self.is_initialized
     }
-    fn is_waiting_player(&self) -> bool {
-        self.is_waiting_player
-    }
 }
 
 impl Pack for GameScrow {
-    const LEN: usize = 137;
-    fn unpack_from_slize(src: &[u8]) -> Result<Self, ProgramError> {
+    const LEN: usize = 210;
+    fn unpack_from_slice(src: &[u8]) -> Result<Self, ProgramError> {
         let src = array_ref![src, 0, Escrow::LEN];
         let (
             is_initialized,
@@ -90,6 +91,7 @@ impl Pack for GameScrow {
             secret_num_dst
         ) = array_refs![dst, 1, 1, 32, 32, 32, 32, 32, 32, 8, 8];
 
+
         let GameScrow {
             is_initialized,
             is_waiting_player,
@@ -101,13 +103,13 @@ impl Pack for GameScrow {
             joiner_token_to_receive_account_pubkey,
             expected_amount,
             secret_num
-         } = self;
-
+        } = self;
         is_initialized_dst[0] = *is_initialized as u8;
 
         is_waiting_player_dst[0] = *is_waiting_player as u8;
 
         initializer_pubkey_dst.copy_from_slice(initializer_pubkey.as_ref());
+        //initializer_pubkey_dst.copy_from_slice(initializer_pubkey.as_ref());
         initializer_temp_token_account_pubkey_dst
             .copy_from_slice(initializer_temp_token_account_pubkey.as_ref());
         initializer_token_to_receive_account_pubkey_dst

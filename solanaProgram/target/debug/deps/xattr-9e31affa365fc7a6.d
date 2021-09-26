@@ -1,0 +1,12 @@
+/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/deps/xattr-9e31affa365fc7a6.rmeta: /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/lib.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/error.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/mod.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/util.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/mod.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/linux.rs
+
+/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/deps/libxattr-9e31affa365fc7a6.rlib: /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/lib.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/error.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/mod.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/util.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/mod.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/linux.rs
+
+/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/deps/xattr-9e31affa365fc7a6.d: /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/lib.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/error.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/mod.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/util.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/mod.rs /home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/linux.rs
+
+/home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/lib.rs:
+/home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/error.rs:
+/home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/mod.rs:
+/home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/util.rs:
+/home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/mod.rs:
+/home/dur4n/.cargo/registry/src/github.com-1ecc6299db9ec823/xattr-0.2.2/src/sys/linux_macos/linux.rs:

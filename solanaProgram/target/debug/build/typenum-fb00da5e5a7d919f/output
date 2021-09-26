@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/typenum-fb00da5e5a7d919f/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/typenum-fb00da5e5a7d919f/out/op.rs

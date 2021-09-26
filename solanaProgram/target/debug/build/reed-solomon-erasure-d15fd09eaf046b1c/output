@@ -1,0 +1,25 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-Wall" "-Wextra" "-march=native" "-std=c11" "-o" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/reed-solomon-erasure-d15fd09eaf046b1c/out/simd_c/reedsolomon.o" "-c" "simd_c/reedsolomon.c"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/reed-solomon-erasure-d15fd09eaf046b1c/out/libreedsolomon.a" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/reed-solomon-erasure-d15fd09eaf046b1c/out/simd_c/reedsolomon.o"
+exit status: 0
+running: "ar" "s" "/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/reed-solomon-erasure-d15fd09eaf046b1c/out/libreedsolomon.a"
+exit status: 0
+cargo:rustc-link-lib=static=reedsolomon
+cargo:rustc-link-search=native=/home/dur4n/developer/blockchain/solana/SecretNumber/solanaProgram/target/debug/build/reed-solomon-erasure-d15fd09eaf046b1c/out
